@@ -34,7 +34,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
  01 - Player Music desafio [BoraCodar](https://boracodar.dev/)
 
-- [Assistir aulas](- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
 
 
 ## 🔖 Layout
