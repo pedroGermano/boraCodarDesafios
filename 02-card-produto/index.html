@@ -1,20 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product Card</title>
-</head>
-<body>
-  <sectin id="app">
-    <div id="product-image"></div>
-    <div id="product-detail">
-      <h4>CÓDIGO: 42404</h4>
-      <h1>Sofá Margot II - Rosé</h1>
-      <p>R$ 4.000 </p>
-      <button>Adicionar à cesta</button>
-    </div>
-  </sectin>
-</body>
+<html lang="pt-br" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="app">
+      <div id="product-image">
+        <button id="btn-360" onclick="toggle()">
+          <img src="./assets/img/360.svg" alt="Botão 360s" />
+        </button>
+        <button id="btn-close" onclick="toggle()">
+          <img src="./assets/img/close.svg" alt="Close" />
+        </button>
+
+          <img id="static" src="./assets/img/sofa.jpg" alt="sofa" />
+          <img id="animated" src="./assets/img/sofa.gif" alt="sofa gif" />
+      </div>
+
+      <div id="product-detail">
+        <h4>CÓDIGO: 42404</h4>
+        <h1>Sofá Margot II - Rosé</h1>
+        <p>R$ 4.000</p>
+        <button>Adicionar à cesta</button>
+      </div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
