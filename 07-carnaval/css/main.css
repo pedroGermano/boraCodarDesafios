@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+header{
+  min-height: 53.2rem;
+  background: #f8f8ff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+header::before{
+  content: '';
+  display: block;
+  background-image: url(../img/ilustra-01.svg);
+  width: 40.7rem;
+  height: 34.5rem;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+header::after{
+  content: '';
+  display: block;
+  background-image: url(../img/ilustra-02.svg);
+  position: absolute;
+  width: 41.4rem;
+  height: 33rem;
+  position: absolute;
+  right: 0;
+  bottom: -1.2rem;
+}
+
+
+
+
+
