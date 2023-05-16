@@ -12,11 +12,16 @@
 
 body{
   font-size: 1.6rem;
+  font-family: 'Inter';
+}
+
+.grid{
+  display: grid;
 }
 
 #app{
-  display: grid;
-  grid-template-columns: max-content max-content max-content;
+  background: #292738;
+  grid-template-columns: repeat(3, 1fr);
   width: 100vw;
   height: 100vh;
   column-gap: 3.2rem;
@@ -29,9 +34,17 @@ body{
   background: #363447;
   box-shadow: 0.3rem 0.4rem 2.6rem rgba(0, 0, 0, 0.25);
   border-radius: 1.6rem;
+  color: #fff;
 
 }
 
 .box:nth-child(4){
   grid-column: 1/4;
+}
+
+.nps{
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 160%;
+  width: fit-content;
 }
