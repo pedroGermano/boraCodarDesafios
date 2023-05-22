@@ -85,9 +85,34 @@ section h2{
   background: var(--bg-hover);
 }
 
+.selected{
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  border-radius: 0 .8rem .8rem 0;
+  padding: 1.6rem;
+}
+
+.selected::before{
+  content: '';
+  height: 2.4rem;
+  width: 0.1rem;
+  background: #94a3b8;
+}
+
+.selected::after{
+  content: '';
+  
+}
+
 .cambio .wrapper{
   margin-top: 2.4rem;
   width: 59.2rem;
   height: 35.6rem;
 
+}
+
+.fi.fis{
+  font-size: 2.4rem;
+  border-radius: 50%;
 }
