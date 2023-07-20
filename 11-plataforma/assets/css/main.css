@@ -118,3 +118,80 @@ input{
   line-height: 2.1rem;
   color: #1e294b;
 }
+
+input:focus,
+input:hover{
+  border: 0.1rem solid #7c3aed;
+  outline: 0;
+}
+
+input:disabled{
+  opacity: 0.35;
+}
+
+::-ms-reveal{
+  display: none;
+}
+
+.eye{
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 55%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
+
+form button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+  background: #7c3aed;
+  border-radius: 0.4rem;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+  margin-block: 3.2rem;
+}
+
+form button:focus{
+  outline: 0.2rem solid #000;
+  border-radius: 0.2rem;
+}
+
+form button:hover{
+  background-color: #9f67ff;
+  cursor: pointer;
+}
+
+.create-account{
+  color: #475569;
+}
+
+@media (max-width: 900px) {
+  #page > * {
+    width: 100%;
+  }
+  #page > img {
+    display: none;
+  }
+
+  #page > div {
+    padding: 11rem;
+  }
+
+  main {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  #page > div {
+    padding: 4rem;
+  }
+}
